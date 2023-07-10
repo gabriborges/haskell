@@ -15,7 +15,7 @@ imprimir lista = do
 
 adicionarPessoa::[Pessoas]->IO [Pessoas]
 adicionarPessoa dados = do
-    putStrLn "\n-------ADICIONAR-------"
+    putStrLn "\n-------Cadastrar-------"
     putStrLn "Digite o nome completo"
     nome <- getLine
     putStrLn "Digite a idade"
